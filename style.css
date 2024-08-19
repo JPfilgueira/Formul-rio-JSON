@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/pngtree-fitness-gym-s-3d-renderings-of-treadmills-or-running-machines-picture-image_3751253.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat; /*Impede que a imagem se repita*/
+    background-size: cover; /*Faz com que a imagem cubra todo o fundo*/
+}
+
+.borda {
+    border: 1px solid #000000; /*Borda*/
+    border-radius: 8px; /*Arredondamento dos cantos*/
+    padding: 20px; /*Espaçamento Interno*/
+    background-color: #00000088; /*Fundo*/
+    width: 260px; /*Largura*/
+    position: relative; /*Permite o uso dos comandos "top" e "left"*/
+    top: 200px; /*Move o elemento para baixo*/
+    left: 825px; /*Move o elemento para a direita*/
+    backdrop-filter: blur(10px); /*Aplica um desfoque ao fundo atrás do elemento*/
+}
+
+input[type="text"], 
+input[type="number"] {
+    background-color: #ffffff5b; 
+    border-radius: 10px;
+    border-color: rgb(122, 73, 0); /*Cor da borda*/
+    margin-bottom: 10px; /*Adiciona um espaço pixels abaixo de cada caixa de texto*/
+    width: 250px; /*Largura*/
+    height: 25px; /*Altura*/
+}
+
+button {
+    background-color: #ffffff5b; 
+    border-radius: 10px; 
+    color: rgb(255, 255, 255); /*Cor do texto*/
+    padding: 10px 20px; /*Adiciona 10 pixels de espaçamento interno acima e abaixo, e 20 pixels nas laterais*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fonte*/
+    font-size: 25px; /*Tamanho da fonte*/
+    position: relative;
+    left: 68px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /*Aplica um efeito de sombra ao redor do botão quando o cursor passa sobre ele, criando um efeito de luz*/
+}
+
+input::placeholder {
+    color: rgb(255, 196, 0); 
+    font-size: 15px; 
+}

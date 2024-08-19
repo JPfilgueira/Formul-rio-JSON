@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> <!--Cabeçalho do documento, onde são definidos metadados e links para recursos externos-->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JSON</title> <!--Título da página no navegador-->
+    <link rel="stylesheet" href="style.css"> <!--Link que conecta ao "style.css"-->
+</head>
+<body> <!--Conteúdo visível da página-->
+    <div class="borda"> <!--Divisão que agrupa elementos-->
+        <input type="text" id="nome" placeholder="Nome completo"> <!-- Campo de entrada DE TEXTO-->
+        <br> <!-- Quebra de linha-->
+
+        <input type="text" id="data" placeholder="Data de nascimento">
+        <br> 
+
+        <input type="text" id="sexo" placeholder="Sexo"> 
+        <br> 
+
+        <input type="number" id="telefone" placeholder="Telefone"> 
+        <br>
+
+        <input type="text" id="saude" placeholder="Informações sobre Saúde"> 
+        <br> 
+
+        <input type="text" id="objetivos" placeholder="Objetivos de treino"> 
+        <br> 
+
+        <input type="text" id="historico" placeholder="Histórico de lesões ou cirurgias">
+        <br> 
+
+        <input type="text" id="email" placeholder="E-mail">
+        <br>
+
+        <button onclick="EnviarFormulario()">enviar</button> <!--Botão DE ENVIO junto de um manipulador de eventos "onclick" (no caso o evento é uma referencia a função "EnviarFormulario()")-->
+    </div> <!-- Fim da divisão da classe "borda"-->
+    <script src="script.js"></script> <!--Inclusão de um arquivo JavaScript-->
+</body>
+</html> <!--Fim do documento HTML-->
